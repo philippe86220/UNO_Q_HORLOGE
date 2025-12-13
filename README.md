@@ -57,7 +57,7 @@ Chaque chiffre est composé de 5 lignes, chacune codée sur **3 bits** :
 
 Exemple pour le chiffre 0 :
 ```cpp
-DIGITS[0][5] = {
+DIGITS[0] = {
   0b111,
   0b101,
   0b101,
@@ -91,7 +91,7 @@ Hypothèses explicites de l'exemple :
 La fonction suivante est utilisée :  
 
 ```cpp
-  void drawDigitDirect(int digit, int xOffset, uint32_t frame[4]) {
+  void drawDigit(int digit, int xOffset, uint32_t frame[4]) {
     if (digit < 0 || digit > 9) return;
 
     const int yOffset = 1; // digits drawn from rows 1..5
@@ -126,7 +126,7 @@ Cette écriture permet :
 
 
 
-### 4.2 Parcours du glyphel Ligne par ligne (valeurs exactes transmises)  
+### 4.2 Parcours du glyphe Ligne par ligne 
 **row = 0**  
 `pattern = 0b111` 
 
@@ -270,4 +270,9 @@ Ce projet montre comment :
 - et convertir ces positions en bits dans un buffer bas niveau.
 
 L’objectif n’est pas la performance maximale, mais la compréhension complète du cheminement, du chiffre abstrait jusqu’au bit allumé sur la matrice.
+
+## Credits
+
+- Projet, conception et implémentation : philippe86220
+- Accompagnement pédagogique, explications détaillées et aide à la compréhension du code : ChatGPT (OpenAI)
 
