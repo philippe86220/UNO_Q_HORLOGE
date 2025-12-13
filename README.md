@@ -76,7 +76,18 @@ Cela correspond visuellement à :
 ---
 
 ### 4. Exemple détaillé : affichage du chiffre 0 (dizaine d’heures)
-
+> Remarque  
+>   
+> L’exemple détaillé du chiffre **0** (dizaine d’heures), présenté dans ce README, n’est pas codé spécifiquement dans le programme.  
+> Il s’agit d’un **exemple pédagogique volontairement isolé**, choisi parce qu’il permet de dérouler simplement et complètement le cheminement :
+>  
+> glyphe 3×5 → coordonnées (x, y) → index linéaire → bit dans le buffer 32 bits.  
+>  
+> Ce raisonnement est strictement identique pour tous les autres chiffres.
+```cpp
+// Hours
+   if (hour >= 10) drawDigit(hTens, 0, frame);
+```  
 
 Hypothèses explicites de l'exemple :
 - `digit = 0`
