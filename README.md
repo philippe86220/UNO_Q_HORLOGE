@@ -257,12 +257,16 @@ Pour le chiffre `0` à `xOffset = 0`, les appels suivants sont générés :
 ```
 Ces coordonnées correspondent exactement au glyphe 3×5 positionné dans la matrice.  
 
-Un tableau récapitulatif (fourni en pièce jointe) permet de visualiser :
+---
+
+![Présentation](Assets/zero-dizaine.png)
+
+Ce tableau récapitulatif permet de visualiser :
 - les coordonnées (x, y)
 - l’index linéaire y*13 + x
 - le mot 32 bits et le bit correspondant
 
-![Présentation](Assets/zero-dizaine.png)
+
 
   ---
 
