@@ -83,7 +83,7 @@ Cela correspond visuellement à :
 > **Remarque importante** : 
 >   
 > L’exemple détaillé du chiffre **0** (dizaine d’heures), présenté dans ce README, n’est pas codé spécifiquement dans le programme.
-> **J'ai exclu le `0` (je l'avais mis au début puis je l'ai enlevé) des dizaine d'heures mais chacun pourra le remettre si bon lui semble**.  
+> **J'ai exclu le `0` des dizaine d'heures mais chacun pourra le remettre si bon lui semble (je l'avais mis au début puis je l'ai enlevé)**.  
 > Il s’agit d’un **exemple pédagogique volontairement isolé**, choisi parce qu’il permet de dérouler simplement et complètement le cheminement :
 >  
 > glyphe 3×5 → coordonnées (x, y) → index linéaire → bit dans le buffer 32 bits.  
