@@ -1,7 +1,9 @@
 
 
 # Horloge LED 13×8 sur Arduino UNO Q avec Arduino App Lab 0.3.0
+Projet pédagogique et aide-mémoire personnel autour du rendu direct sur la matrice LED 13×8 de l’Arduino UNO Q.
 ### 1. Objectif du projet  
+
 Ce projet affiche l’heure (HH:MM) sur la matrice LED 13×8 de l’Arduino UNO Q, en utilisant directement  
 l’API bas niveau :
 ```cpp
