@@ -1,4 +1,16 @@
-# UNO_Q_HORLOGE
+# Horloge LED 13×8 sur Arduino UNO Q 
+### 1. Objectif du projet  
+Ce projet affiche l’heure (HH:MM) sur la matrice LED 13×8 de l’Arduino UNO Q, en utilisant directement  
+l’API bas niveau :
+```cpp
+matrixBegin();
+matrixWrite(uint32_t frame[4]);
+```
+les chiffres sont décrits sous forme de **glyphes binaires 3×5**,   
+puis directement traduits en bits dans un buffer de **4 mots de 32 bits**.
+
+
+
 
 Hypothèses explicites (celles de votre horloge) :
 - `digit = 0`
