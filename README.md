@@ -88,7 +88,7 @@ Cela correspond visuellement à :
 >  
 > glyphe 3×5 → coordonnées (x, y) → index linéaire → bit dans le buffer 32 bits.  
 >  
-> Ce raisonnement est strictement identique pour tous les autres chiffres.
+> **Ce raisonnement est strictement identique pour tous les autres chiffres**.
 
 
 Hypothèses explicites de l'exemple :
