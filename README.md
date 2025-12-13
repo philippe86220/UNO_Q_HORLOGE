@@ -262,6 +262,8 @@ Un tableau récapitulatif (fourni en pièce jointe) permet de visualiser :
 - l’index linéaire y*13 + x
 - le mot 32 bits et le bit correspondant
 
+![Présentation](Assets/zero-dizaine.png)
+
   ---
 
  ### 7. Gestion du séparateur « : »
