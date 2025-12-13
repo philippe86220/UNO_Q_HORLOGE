@@ -80,7 +80,7 @@ Cela correspond visuellement à :
 // Hours
    if (hour >= 10) drawDigit(hTens, 0, frame);
 ```  
-> Remarque : 
+> **Remarque importante** : 
 >   
 > L’exemple détaillé du chiffre **0** (dizaine d’heures), présenté dans ce README, n’est pas codé spécifiquement dans le programme.
 > **J'ai exclu le `0` des dizaine (je l'avais mis au début puis je l'ai enlevé) d'heures mais chacun pourra le remettre si bon lui semble**.  
